@@ -25,7 +25,7 @@ from bitcoinlib.services.baseclient import BaseClient, ClientError
 from bitcoinlib.transactions import Transaction
 from bitcoinlib.encoding import to_hexstring
 from bitcoinlib.networks import Network
-
+import struct
 
 PROVIDERNAME = 'dogecoind'
 
